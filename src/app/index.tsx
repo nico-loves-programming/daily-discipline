@@ -1,16 +1,5 @@
-
 import { useEffect, useState } from 'react';
-import {
-    Alert,
-    Keyboard,
-    Pressable,
-    SafeAreaView,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
-} from 'react-native';
+import {Alert, Keyboard, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View,} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 type Task = {
